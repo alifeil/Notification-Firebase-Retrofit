@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataTwo">
+
+    <TextView
+        android:layout_marginTop="22dp"
+        android:text="Data 2"
+        android:fontFamily="@font/alike_angular"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_marginTop="22dp"
+        android:id="@+id/TitleDataTwo"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/BodyDataTwo"
+        android:hint="Body"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/ActivityDataTwo"
+        android:hint="Activity"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/DataOneTwo"
+        android:hint="DataOne"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:layout_marginTop="22dp"/>
+    <TextView
+        android:id="@+id/DataTwoTwo"
+        android:hint="Data Two"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:layout_marginTop="22dp"/>
+</LinearLayout>

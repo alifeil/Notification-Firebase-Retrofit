@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityOne">
+
+        <TextView
+            android:layout_marginTop="22dp"
+            android:text="Activity"
+            android:fontFamily="@font/alike_angular"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginTop="22dp"
+            android:id="@+id/titleactivity"
+            android:hint="Title"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:id="@+id/bodyactivity"
+            android:hint="Body"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="22dp"/>
+        <TextView
+            android:id="@+id/activityactivity"
+            android:hint="Activity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="22dp"/>
+        <TextView
+            android:id="@+id/dataoneactivity"
+            android:hint="Data One"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="22dp"/>
+        <TextView
+            android:id="@+id/datatwoactivity"
+            android:hint="Data Two"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textSize="22dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="22dp"/>
+
+</LinearLayout>
